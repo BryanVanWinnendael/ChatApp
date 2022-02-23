@@ -1,0 +1,13 @@
+.MainGrid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+#chatScroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+#chatScroll::-webkit-scrollbar {
+  display: none;
+}
